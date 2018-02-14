@@ -1,14 +1,12 @@
-# Web Development and Society (HOUSECS 59-03)
-Website for HOUSECS 59-03 (Web Development and Society)
+# Applied Machine Learning (HOUSECS 59-XX)
+Website for HOUSECS 59-XX (Applied Machine Learning)
 
 ### Instructors
 Shrey Gupta, Student Instructor, Duke University, shrey.gupta@duke.edu
 
-Ben Yang, Student Instructor, Duke University, jichu.yang@duke.edu
-
-Prof. Salman Azhar, Faculty Sponsor, Department of Computer Science, azhar@cs.duke.edu
+Prof. Rebecca Steorts, Faculty Sponsor, Department of Statistical Science, rebecca.steorts@duke.edu
 
 ### Bulletin Description
-Introduction to topics in web application development, and the role of web development in modern society. The course will be geared towards non-computer science and non-quantitative science majors and will include learning specific web development concepts (listed below) and their existing and potential applications to modern society.
+Introduction to topics in machine learning through an applied perspective. The course assumes basic fluency in programming and mathematics at the single-variable calculus level, and will include learning specific machine learning concepts (listed below) and their existing and potential applications to modern society.
 
-Web development concepts studied will include: client and basic server-side development (including writing code in HTML, CSS, JavaScript, and PHP), usage of version control systems such as Git (and interfaces such as GitHub), and introduction to database management systems such as SQLite.
+Machine learning concepts studied will include: classification (including classification trees, random forests, and neural networks), regression (including regression trees and logistic regression), clustering, and evaluation of machine learning models.
