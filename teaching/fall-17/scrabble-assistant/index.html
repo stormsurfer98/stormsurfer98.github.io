@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Scrabble Assistant</title>
+			<link href='https://fonts.googleapis.com/css?family=Raleway:400,600,800' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" type="text/css" href="css/main.css"/>
+			<script src="js/jquery-2.1.4.min.js"></script>
+		</head>
+
+		<body bgcolor="#D3D3D3">
+			<center>
+				<span id="header">
+					<br>
+					<h1 id="start">Scrabble Assistant</h1>
+					<h4 style="margin-top: -10px;"><em>Find and build words for Scrabble!</em></h4>
+					<br>
+				</span>
+
+				<div>
+					<table>
+						<tr>
+							<th style="visibility: hidden; width: 5px;"></th>
+							<th onclick="changeValue(this, event)">
+								<h5 id="board-1-h"></h5>
+								<input id="board-1" onkeyup="nextElement(this)" maxlength="1" onblur="makeCaps(this)" autofocus></input>
+							</th>
+							<th onclick="changeValue(this, event)">
+								<h5 id="board-2-h"></h5>
+								<input id="board-2" onkeyup="nextElement(this)" maxlength="1" onblur="makeCaps(this)"></input>
+							</th>
+							<th onclick="changeValue(this, event)">
+								<h5 id="board-3-h"></h5>
+								<input id="board-3" onkeyup="nextElement(this)" maxlength="1" onblur="makeCaps(this)"></input>
+							</th>
+							<th onclick="changeValue(this, event)">
+								<h5 id="board-4-h"></h5>
+								<input id="board-4" onkeyup="nextElement(this)" maxlength="1" onblur="makeCaps(this)"></input>
+							</th>
+							<th onclick="changeValue(this, event)">
+								<h5 id="board-5-h"></h5>
+								<input id="board-5" onkeyup="nextElement(this)" maxlength="1" onblur="makeCaps(this)"></input>
+							</th>
+							<th onclick="changeValue(this, event)">
+								<h5 id="board-6-h"></h5>
+								<input id="board-6" onkeyup="nextElement(this)" maxlength="1" onblur="makeCaps(this)"></input>
+							</th>
+							<th onclick="changeValue(this, event)">
+								<h5 id="board-7-h"></h5>
+								<input id="board-7" onkeyup="nextElement(this)" maxlength="1" onblur="makeCaps(this)"></input>
+							</th>
+							<th onclick="changeValue(this, event)">
+								<h5 id="board-8-h"></h5>
+								<input id="board-8" onkeyup="nextElement(this)" maxlength="1" onblur="makeCaps(this)"></input>
+							</th>
+							<th onclick="changeValue(this, event)">
+								<h5 id="board-9-h"></h5>
+								<input id="board-9" onkeyup="nextElement(this)" maxlength="1" onblur="makeCaps(this)"></input>
+							</th>
+							<th onclick="changeValue(this, event)">
+								<h5 id="board-10-h"></h5>
+								<input id="board-10" onkeyup="nextElement(this)" maxlength="1" onblur="makeCaps(this)"></input>
+							</th>
+							<th style="visibility: hidden; width: 5px;"></th>
+						</tr>
+					</table>
+					<h6 style="margin-top: 10px; font-weight: 200"><em>CLICK FOR DOUBLE AND TRIPLE LETTER SCORE</em></h6>
+					<h6 id="board" style="margin-top: -20px;"><em>THE BOARD (POINTS EARNED: 0)</em></h6>
+				</div>
+
+				<div>
+					<table>
+						<tr>
+							<th style="visibility: hidden; width: 5px;"></th>
+							<th>
+								<h5 id="rack-1-h"></h5>
+								<input id="rack-1" onkeyup="nextElement(this)" maxlength="1" onblur="updateRack(this)"></input>
+							</th>
+							<th>
+								<h5 id="rack-2-h"></h5>
+								<input id="rack-2" onkeyup="nextElement(this)" maxlength="1" onblur="updateRack(this)"></input>
+							</th>
+							<th>
+								<h5 id="rack-3-h"></h5>
+								<input id="rack-3" onkeyup="nextElement(this)" maxlength="1" onblur="updateRack(this)"></input>
+							</th>
+							<th>
+								<h5 id="rack-4-h"></h5>
+								<input id="rack-4" onkeyup="nextElement(this)" maxlength="1" onblur="updateRack(this)"></input>
+							</th>
+							<th>
+								<h5 id="rack-5-h"></h5>
+								<input id="rack-5" onkeyup="nextElement(this)" maxlength="1" onblur="updateRack(this)"></input>
+							</th>
+							<th>
+								<h5 id="rack-6-h"></h5>
+								<input id="rack-6" onkeyup="nextElement(this)" maxlength="1" onblur="updateRack(this)"></input>
+							</th>
+							<th>
+								<h5 id="rack-7-h"></h5>
+								<input id="rack-7" onkeyup="nextElement(this)" maxlength="1" onblur="updateRack(this)"></input>
+							</th>
+							<th style="visibility: hidden; width: 5px;"></th>
+						</tr>
+					</table>
+					<h6 id="rack" style="margin-top: 10px;"><em>YOUR RACK (AVAILABLE POINTS: 0)</em></h6>
+				</div>
+
+				<button id="button" onclick="createRegEx()">FIND BEST MATCH</button>
+			</center>
+
+			<script src="js/main.js"></script>
+		</body>
+	</html>

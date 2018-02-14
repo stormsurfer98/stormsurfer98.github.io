@@ -1,0 +1,50 @@
+h1, h4, h5, div, p, button {
+	font-family: "Raleway";
+}
+
+h1 {
+	font-weight: 800;
+	text-shadow: 1px 1px #87B986;
+}
+
+h4 {
+	font-weight: 400;
+}
+
+h5 {
+	font: 1px;
+	font-weight: 400;
+	margin: -10px 5px 0px 0px;
+	text-align: right;
+	display: none;
+}
+
+span {
+	font-weight: 600;
+}
+
+table {
+	border-bottom: 1px solid black;
+}
+
+th {
+	border: 1px solid black;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	background: #F4A460;
+}
+
+input {
+	width: 20px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+button {
+	background: #87B986;
+	border: 2px solid black;
+	padding: 5px;
+}
