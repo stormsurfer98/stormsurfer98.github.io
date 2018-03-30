@@ -1,5 +1,5 @@
-# Applied Machine Learning (HOUSECS 59-XX)
-Website for HOUSECS 59-XX (Applied Machine Learning)
+# Applied Machine Learning (HOUSECS 59-01)
+Website for HOUSECS 59-01 (Applied Machine Learning)
 
 ### Instructors
 Shrey Gupta, Student Instructor, Duke University, shrey.gupta@duke.edu
